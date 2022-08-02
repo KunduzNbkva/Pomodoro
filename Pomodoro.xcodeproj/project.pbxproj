@@ -39,6 +39,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E029AA8287F5DA1004EB64B /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				4E029AAB287F5E0B004EB64B /* Storyboards */,
+				4E029AA9287F5DAF004EB64B /* Configs */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		4E029AA9287F5DAF004EB64B /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		4E029AAB287F5E0B004EB64B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				4E13B590287DB3C50024D06A /* Main.storyboard */,
+				4E13B598287DB3C90024D06A /* LaunchScreen.storyboard */,
+				4E13B596287DB3C90024D06A /* Assets.xcassets */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		4E029AAC287F5E32004EB64B /* Sourses */ = {
+			isa = PBXGroup;
+			children = (
+				4E029AAE287F5E52004EB64B /* Scenes */,
+				4E029AAD287F5E43004EB64B /* App */,
+			);
+			path = Sourses;
+			sourceTree = "<group>";
+		};
+		4E029AAD287F5E43004EB64B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4E13B58C287DB3C50024D06A /* SceneDelegate.swift */,
+				4E13B58A287DB3C50024D06A /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4E029AAE287F5E52004EB64B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4E13B58E287DB3C50024D06A /* ViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
 		4E13B57E287DB3C50024D06A = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +110,10 @@
 		4E13B589287DB3C50024D06A /* Pomodoro */ = {
 			isa = PBXGroup;
 			children = (
-				4E13B58A287DB3C50024D06A /* AppDelegate.swift */,
-				4E13B58C287DB3C50024D06A /* SceneDelegate.swift */,
-				4E13B58E287DB3C50024D06A /* ViewController.swift */,
-				4E13B590287DB3C50024D06A /* Main.storyboard */,
-				4E13B596287DB3C90024D06A /* Assets.xcassets */,
-				4E13B598287DB3C90024D06A /* LaunchScreen.storyboard */,
-				4E13B59B287DB3C90024D06A /* Info.plist */,
+				4E029AAC287F5E32004EB64B /* Sourses */,
+				4E029AA8287F5DA1004EB64B /* Resourses */,
 				4E13B593287DB3C60024D06A /* Pomodoro.xcdatamodeld */,
+				4E13B59B287DB3C90024D06A /* Info.plist */,
 			);
 			path = Pomodoro;
 			sourceTree = "<group>";
